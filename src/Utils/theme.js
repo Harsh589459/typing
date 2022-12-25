@@ -1,25 +1,32 @@
 const darkTheme = {
-    label: 'Dark',
-    background:'black',
-    title: '#ffffff',
-    typeBoxText: '#ffffff'
+    label:"Dark",
+    background: 'black',
+    title: 'pink',
+    typeBoxText: 'grey',
+    stats: 'green'
 }
 
-const greenTheme = {
-    label: 'Green',
-    background: 'green',
-    color: 'pink'
+
+const redTheme = {
+    label: 'Red Theme',
+    background: 'red',
+    title: "white",
+    typeBoxText: 'blue',
+    stats: 'purple'
 }
 
-const superUserTheme = {
-    label: 'Super User',
-    background: '#262A33',
-    title: '#43FFAF',
-    typeBoxText: '#526777'
+const  luna = {
+    label: 'Luna',
+    background: '#221C35',
+    title: '#F67599',
+    typeBoxText: '#5A3A7E',
+    stats: '#F67599'
 }
+
+
 
 export const themeOptions = [
     {value: darkTheme, label: 'Dark'},
-    {value: greenTheme, label: 'Green theme'},
-    {value: superUserTheme, label: 'Super User'}
+    {value: redTheme, label: 'Red Theme'},
+    {value: luna, label:'Luna'}
 ];
